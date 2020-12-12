@@ -1,7 +1,5 @@
 package model;
 
-import com.mysql.cj.x.protobuf.MysqlxDatatypes;
-
 import java.util.*;
 
 
@@ -27,7 +25,7 @@ public class Clients {
     public void setFirst_name(String first_name) {
         this.first_name = first_name;
     }
-  
+
     public String getLast_name() {
         return last_name;
     }
